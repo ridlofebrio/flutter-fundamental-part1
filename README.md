@@ -64,41 +64,41 @@ git init
 - Langkah 2: Image Widget
   Buat sebuah file image_widget.dart di dalam folder basic_widgets dengan isi kode berikut.Lakukan penyesuaian asset pada file pubspec.yaml dan tambahkan file logo Anda di folder assets project hello_world.
   Jangan lupa sesuaikan kode dan import di file main.dart kemudian akan tampil gambar seperti berikut.
-  ![alt text](img\image2.png)
+  ![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image2.png)
 
 # Praktikum 5: Menerapkan Widget Material Design dan iOS Cupertino
 
 - Langkah 1: Cupertino Button dan Loading Bar<br>
   Buat file di basic_widgets > loading_cupertino.dart. Import stateless widget dari material dan cupertino. Lalu isi kode di dalam method Widget build adalah sebagai berikut.
-  ![alt text](img\image3.png)
+  ![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image3.png)
 - Langkah 2: Floating Action Button (FAB)<br>
   Button widget terdapat beberapa macam pada flutter yaitu ButtonBar, DropdownButton, TextButton, FloatingActionButton, IconButton, OutlineButton, PopupMenuButton, dan ElevatedButton. Buat file di basic_widgets > fab_widget.dart. Import stateless widget dari material. Lalu isi kode di dalam method Widget build adalah sebagai berikut.
-  ![alt text](img\image4.png)
+  ![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image4.png)
 
 - Langkah 3: <br>
   Scaffold Widget
   Scaffold widget digunakan untuk mengatur tata letak sesuai dengan material design.
-  ![alt text](img\image5.png)
+  ![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image5.png)
 
 - Langkah 4: Dialog Widget <br>
   Dialog widget pada flutter memiliki dua jenis dialog yaitu AlertDialog dan SimpleDialog.
-  ![alt text](img\image6.png)
-  ![alt text](img\image7.png)
+  ![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image6.png)
+  ![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image7.png)
 
 - Langkah 5: Input dan Selection Widget <br>
   Flutter menyediakan widget yang dapat menerima input dari pengguna aplikasi yaitu antara lain Checkbox, Date and Time Pickers, Radio Button, Slider, Switch, TextField.
-  ![alt text](img\image8.png)
+  ![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image8.png)
 
 - Langkah 6: Date and Time Pickers <br>
   Date and Time Pickers termasuk pada kategori input dan selection widget, berikut adalah contoh penggunaan Date and Time Pickers.
-  ![alt text](img\image9.png)
+  ![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image9.png)
 
 
 # Tugas
 
 ## First Hot ReloadAt 
 the bottom of lib/main.dart, add something to the string in the first Text object, and save the file (with Ctrl+S or Cmd+S). For example:
-![alt text](img\image10.png)
+![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image10.png)
 ## Adding a button
 When you save the change, the app updates again: A button appears and, when you click it, the Debug Console in VS Code shows a button pressed! message.
 ```dart
@@ -145,7 +145,7 @@ class MyAppState extends ChangeNotifier {
   var current = WordPair.random();
 }
 ```
-![alt text](img\image11.png)
+![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image11.png)
 
 ## Make the app prettier
 he line responsible for showing the current word pair looks like this now: Text(appState.current.asLowerCase). To change it into something more complex, it's a good idea to extract this line into a separate widget. Having separate widgets for separate logical parts of your UI is an important way of managing complexity in Flutter.
@@ -225,7 +225,7 @@ First, remember that BigCard is part of a Column. By default, columns lump their
       ),
     );
 ```
-![alt text](img\image12.png)
+![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image12.png)
 
 ## Add functionality
 Scroll to MyAppState and add the following code:
@@ -281,7 +281,7 @@ ElevatedButton.icon(
       label: Text('Like'),
   ),
 ```
-![alt text](img\image13.png)
+![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image13.png)
 
 ### Add navigation rail
 To get to the meat of this step as soon as possible, split MyHomePage into 2 separate widgets.
@@ -369,7 +369,7 @@ class GeneratorPage extends StatelessWidget {
   }
 }
 ```
-![alt text](img\image14.png)
+![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image14.png)
 ### setState
 The new stateful widget only needs to track one variable: selectedIndex. Make the following 3 changes to _MyHomePageState:
 ```dart
@@ -433,10 +433,10 @@ switch (selectedIndex) {
 
 // ...
 ```
-![alt text](img\image15.png)
+![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image15.png)
 ### Responsiveness
 Next, make the navigation rail responsive. That is to say, make it automatically show the labels (using extended: true) when there's enough room for them
-![alt text](img\image16.png)
+![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image16.png)
 
 ### Add a new page
 Here's the new FavoritesPage class
@@ -470,4 +470,4 @@ class FavoritesPage extends StatelessWidget {
   }
 }
 ```
-![alt text](image.png)
+![alt text](https://github.com/ridlofebrio/flutter-fundamental-part1/blob/main/img/image17.png)
